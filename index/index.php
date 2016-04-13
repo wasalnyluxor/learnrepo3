@@ -5,7 +5,7 @@
 <title>Untitled Document</title>
 
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
-<!--<style>
+ <style>
 #t{
 float:left;
 width:50%;
@@ -23,10 +23,10 @@ width:50;
 
 
 </style>
--->
+ 
 
 </head>
-<body  bgcolor="#993399">
+<body bgcolor="#0099FF" "">
 
  
 <div class="container">
