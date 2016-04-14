@@ -38,11 +38,10 @@ $LoginPassword="";
       <input type="hidden" name="u_id" value="<?php echo "$row[un_id]"?>" />
          <input type="text" name="u_name" value="<?php echo "$row[un_name]"?>" />
             <input type="text" name="u_city" value="<?php echo "$row[un_city]"?>" />
-              <input type="radio" name="u_status" value="<?php echo "$row[un_status]"?>" />free
-                 <input type="radio" name="u_status" value="<?php echo "$row[un_status]"?>" />paid
+              <input type="text" name="u_status" value="<?php echo "$row[un_status]"?>" />
                
-                                      <a href="unupdate.php" > <input type="submit" value="update" /></a>
-                                             <a href="undelete.php" ><input type="submit" value="delete" /></a>
+                                      <a href="unupdate.php" > <input type="button" value="update" style="background-color:#C39" /> </a>
+                                             <a href="undelete.php" > <input type="button" value="delete" style="background-color:#C39" /></a>
 
                         <hr />
 

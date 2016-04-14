@@ -34,13 +34,13 @@ $LoginPassword="";
   <?php
 	while($row = mysql_fetch_array($result)){
 	?>
-    <form  method="get" >
-      <input type="hidden" name="s_id" value="<?php echo "$row[st_id]"?>" />
+    <form  method="get" action="stupdate.php">
+      <input type="text" name="s_id" value="<?php echo "$row[st_id]"?>" />
          <input type="text" name="s_name" value="<?php echo "$row[st_name]"?>" />
           <input type="text" name="s_age" value="<?php echo "$row[st_age]"?>" />
               <input type="text" name="s_city" value="<?php echo "$row[st_city]"?>" />
-               <a href="stupdate.php" > <input type="submit" value="update" /></a>
-                                             <a href="stdelete.php" ><input type="submit" value="delete" /></a>
+                 <a href="stupdate.php" > <input type="button" value="update" style="background-color:#C39" /> </a>
+                    <a href="stdelete.php" > <input type="button" value="delete" style="background-color:#C39" /></a>
                         <hr />
 
      </form>
@@ -52,5 +52,6 @@ $LoginPassword="";
 	;}
 	 mysql_close($con);
 	?>
+ 
 </body>
 </html>
